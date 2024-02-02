@@ -227,14 +227,13 @@ a.black:link, a.black:visited {
   color: var(--black);
   padding-bottom: 1.1rem;
   border-bottom: 1px solid var(--color-border);
+  margin-bottom: 2rem;
 }
 
 .big-item .image {
-  margin-top: 2rem;
   max-width: 38.6rem;
-  width: 100%;
   max-height: 38.6rem;
-  height: 100%;
+  width: 100%;
 }
 
 .gift {
