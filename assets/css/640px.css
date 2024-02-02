@@ -1,0 +1,20 @@
+@media (max-width: 640px) {
+  html {
+    font-size: 62.5%;
+  }
+  .grid-cols-sm-1 {
+    grid-template-columns: 1fr !important;
+  }
+  .big-item {
+    grid-column: 1 / 1 !important;
+    grid-row: 1 / 1 !important;
+  }
+  .max-w-sm-19 {
+    max-width: 19rem !important;
+  }
+  .items-sm-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+  }
+}

@@ -1,0 +1,8 @@
+@media (max-width: 1280px) {
+  .box-search {
+    left: 45% !important;
+  }
+  .display-xl-none {
+    display: none !important;
+  }
+}

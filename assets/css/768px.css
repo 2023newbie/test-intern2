@@ -1,0 +1,24 @@
+@media (max-width: 768px) {
+  .justify-md-center {
+    justify-content: center;
+  }
+  .d-md-none {
+    display: none;
+  }
+  .grid-cols-md-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid-cols-md-3 {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+  .big-item {
+    grid-column: 1 / 3 !important;
+    grid-row: 1 / 3 !important;
+  }
+  .flex-md-center {
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    align-items: center;
+  }
+}
